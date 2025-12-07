@@ -1,7 +1,5 @@
 # 💫 About Me:
 🔭 I'm currently working on<br><br>Building full-stack projects that blend clean UI with practical problem-solving<br><br>Developing an IoT-based microplastic detection system<br><br>Improving my React & modern JavaScript ecosystem skills<br><br>🤝 I'm looking to collaborate on<br><br>Real-world web apps that need beautiful UI + strong logic<br><br>Open-source front-end or IoT projects<br><br>🧠 I'm looking for help with<br><br>Scaling full-stack apps with optimized backend architecture<br><br>Mastering advanced React patterns & API integrations<br><br>Exploring machine-learning approaches for IoT-based detection<br><br>🌱 I'm currently learning<br><br>React.js, Next.js, and modern component-based architectures<br><br>embedded systems for IoT<br><br>💬 Ask me about<br><br>Front-end design systems, UI/UX fundamentals, and clean code<br><br>⚡ Fun fact<br><br>I turned my curiosity into a habit: I break things just to rebuild them better.<br><br>I believe design is not decoration — it's communication.
-
-
 ## 🌐 Socials:
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/_g_a_w_t_a_m_) 
 
