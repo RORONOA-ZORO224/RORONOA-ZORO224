@@ -1,5 +1,85 @@
 # 💫 About Me:
-🔭 I'm currently working on<br><br>Building full-stack projects that blend clean UI with practical problem-solving<br><br>Developing an IoT-based microplastic detection system<br><br>Improving my React & modern JavaScript ecosystem skills<br><br>🤝 I'm looking to collaborate on<br><br>Real-world web apps that need beautiful UI + strong logic<br><br>Open-source front-end or IoT projects<br><br>🧠 I'm looking for help with<br><br>Scaling full-stack apps with optimized backend architecture<br><br>Mastering advanced React patterns & API integrations<br><br>Exploring machine-learning approaches for IoT-based detection<br><br>🌱 I'm currently learning<br><br>React.js, Next.js, and modern component-based architectures<br><br>embedded systems for IoT<br><br>💬 Ask me about<br><br>Front-end design systems, UI/UX fundamentals, and clean code<br><br>⚡ Fun fact<br><br>I turned my curiosity into a habit: I break things just to rebuild them better.<br><br>I believe design is not decoration — it's communication.
+# ⛩️ Gawtam P. 
+> *"I don't just write code — I design the physical gates that execute it. And when I'm on the software side, I turn curiosity into a habit: I break things just to rebuild them better."*
+
+**ECE Undergraduate ** · RTL Design · Open-Source EDA · Full-Stack Web Dev · Emerging Memory Research
+
+---
+
+## 🔭 Currently Working On
+
+- Building full-stack projects that blend **clean UI** with **practical problem-solving**
+- Developing **FOUNDRY** — an AI-powered NL-to-Verilog platform with closed-loop simulation verification *(National Finalist @ AI4Dev '26)*
+- Investigating **fault primitive taxonomy** for HfO₂-based ReRAM cells for next-gen AI inference hardware
+- Sharpening my **React & modern JavaScript ecosystem** skills
+
+---
+
+## 🛠️ Tech Stack
+
+### Hardware & EDA
+| Layer | Tools |
+|---|---|
+| Design & Logic | `Verilog HDL` — Gate-level · Structural · Behavioral |
+| Simulation & Verification | `Cocotb` · `Verilator` · `Icarus Verilog` · `SymbiYosys` |
+| Physical Design | `OpenLane` · `OpenROAD` · `Yosys` · `Magic VLSI` · `KLayout` |
+| Process Node | SkyWater 130nm (SKY130 PDK) |
+
+### Software & Web
+| Layer | Tools |
+|---|---|
+| Frontend | `React.js` · `Next.js` · HTML · CSS · JavaScript (ES6+) |
+| Backend | Node.js · REST APIs · full-stack architecture |
+| Systems | C · Python |
+---
+
+## 📊 VLSI Milestones
+
+- **30+ RTL Modules** — Verified via self-written testbenches and waveform analysis
+- **First Silicon Layout** — GDSII for an 8-bit ALU via complete automated RTL-to-GDSII flow
+- **100% Fault Coverage** — Across 11 ReRAM fault classes in the MARCH-ReRAM framework
+
+---
+
+## 🤝 Looking to Collaborate On
+
+- Real-world **web apps** that need beautiful UI + strong backend logic
+- **Open-source front-end *
+- **EDA Automation** — Python-based tools to streamline silicon design flows
+- **Hardware Documentation** — bridging complex hardware specs with accessible developer docs
+
+---
+
+## 🧠 Looking for Help With
+
+- Scaling full-stack apps with **optimized backend architecture**
+- Mastering **advanced React patterns** & API integrations
+- Exploring **machine-learning approaches** for IoT-based detection
+- Deepening expertise in **physical design** and silicon implementation
+
+---
+
+## 🌱 Currently Learning
+
+- `React.js` · `Next.js` · modern component-based architectures
+- Embedded systems for IoT
+- Advanced physical implementation (RTL-to-GDSII, 42-step flow)
+
+---
+
+## 💬 Ask Me About
+
+- Front-end design systems, UI/UX fundamentals, and clean code
+- VLSI design flows, RTL modeling, and EDA tooling
+- Open-source silicon and the SKY130 PDK ecosystem
+
+---
+
+## ⚡ Fun Facts
+
+- I turned my curiosity into a habit: **I break things just to rebuild them better.**
+- I believe **design is not decoration — it's communication.**
+- Currently moving from a *"button-pusher"* to a **Silicon Architect** — one physical implementation step at a time.
 ## 🌐 Socials:
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/_g_a_w_t_a_m_) 
 
