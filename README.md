@@ -1,94 +1,116 @@
-# 💫 About Me:
-# ⛩️ Gawtam P
-**ECE Undergraduate ** · RTL Design · Open-Source EDA · Full-Stack Web Dev · Emerging Memory Research
+<div align="center">
+
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=22&duration=3000&pause=1000&color=2E8B57&center=true&vCenter=true&width=560&lines=Gawtam" alt="Typing SVG" />
+</a>
+
+<p>
+  <img src="https://img.shields.io/badge/ECE-Undergraduate-2E8B57?style=flat-square" />
+  <img src="https://img.shields.io/badge/Focus-VLSI%20%7C%20RTL%20%7C%20EDA-2E8B57?style=flat-square" />
+  <img src="https://img.shields.io/badge/PDK-SKY130-2E8B57?style=flat-square" />
+</p>
+
+</div>
 
 ---
 
-## 🔭 Currently Working On
+### About
 
-- Building full-stack projects that blend **clean UI** with **practical problem-solving**
-- Developing **FOUNDRY** — an AI-powered NL-to-Verilog platform with closed-loop simulation verification *(National Finalist @ AI4Dev '26)*
-- Investigating **fault primitive taxonomy** for HfO₂-based ReRAM cells for next-gen AI inference hardware
-- Sharpening my **React & modern JavaScript ecosystem** skills
+ECE undergraduate working across RTL design, physical implementation, and open-source silicon tooling, with a research focus on emerging memory devices. I also build full-stack tools when hardware work calls for a software interface.
 
 ---
 
-## 🛠️ Tech Stack
+### Current Work
 
-### Hardware & EDA
+- **Fault primitive taxonomy for HfO₂-based ReRAM cells** — characterizing failure mechanisms in emerging memory for next-generation AI inference hardware
+- **FOUNDRY** — an AI-assisted natural-language-to-Verilog platform with closed-loop simulation verification *(National Finalist, AI4Dev '26)*
+- Advancing through the full RTL-to-GDSII flow on the SkyWater 130nm open-source PDK
+
+---
+
+### Highlighted Projects
+
+**FOUNDRY — Natural Language to Verilog**
+An AI-assisted platform that converts natural-language hardware descriptions into synthesizable Verilog, with a closed-loop simulation stage that verifies generated RTL before it reaches the designer. Built to lower the barrier between architectural intent and working RTL without skipping verification. National Finalist, AI4Dev '26.
+
+**Fault Primitive Taxonomy — HfO₂ ReRAM**
+Ongoing research classifying failure mechanisms in HfO₂-based resistive memory cells, targeting the reliability gap in emerging memory used for AI inference hardware. Work includes building a fault model under the MARCH-ReRAM framework and validating coverage across defined fault classes.
+
+**8-bit ALU — RTL to GDSII**
+Full automated flow from Verilog RTL through synthesis, floorplanning, placement, routing, and signoff to a final GDSII layout, using OpenLane on the SKY130 process node.
+
+**RISC-V Core**
+A subset RISC-V processor core implemented in Verilog, covering instruction fetch, decode, and execute stages, with self-written testbenches used to verify instruction-level correctness against the ISA specification.
+
+**UART Controller**
+A configurable UART transmitter-receiver module implemented in RTL, verified for baud-rate accuracy, framing, and edge-case handling using Cocotb-based testbenches before integration into larger SoC designs.
+
+---
+
+### Design Flow I Work Across
+
+`RTL Design` → `Functional Verification` → `Synthesis` → `Floorplan / Placement` → `Clock Tree Synthesis` → `Routing` → `STA & Signoff` → `GDSII`
+
+Each stage above has been exercised hands-on rather than studied in the abstract — from writing and simulating RTL to pushing a design through OpenLane to a manufacturable layout.
+
+---
+
+### VLSI / Hardware Stack
+
 | Layer | Tools |
 |---|---|
-| Design & Logic | `Verilog HDL` — Gate-level · Structural · Behavioral |
-| Simulation & Verification | `Cocotb` · `Verilator` · `Icarus Verilog` · `SymbiYosys` |
-| Physical Design | `OpenLane` · `OpenROAD` · `Yosys` · `Magic VLSI` · `KLayout` |
-| Process Node | SkyWater 130nm (SKY130 PDK) |
+| RTL Design | Verilog HDL — gate-level, structural, behavioral |
+| Simulation & Verification | Cocotb, Verilator, Icarus Verilog, SymbiYosys |
+| Physical Design | OpenLane, OpenROAD, Yosys, Magic VLSI, KLayout |
+| Process Node | SkyWater 130nm (SKY130) |
 
-### Software & Web
-| Layer | Tools |
-|---|---|
-| Frontend | `React.js` · `Next.js` · HTML · CSS · JavaScript (ES6+) |
-| Backend | Node.js · REST APIs · full-stack architecture |
-| Systems | C · Python |
----
-
-## 📊 VLSI Milestones
-
-- **30+ RTL Modules** — Verified via self-written testbenches and waveform analysis
-- **First Silicon Layout** — GDSII for an 8-bit ALU via complete automated RTL-to-GDSII flow
-- **100% Fault Coverage** — Across 11 ReRAM fault classes in the MARCH-ReRAM framework
+**Milestones**
+- 30+ RTL modules verified through self-written testbenches and waveform analysis
+- First silicon layout — GDSII for an 8-bit ALU via a complete automated RTL-to-GDSII flow
+- 100% fault coverage across 11 ReRAM fault classes under the MARCH-ReRAM framework
 
 ---
 
-## Looking to Collaborate On
+### Software Stack
 
-- Real-world **web apps** that need beautiful UI + strong backend logic
-- **Open-source front-end *
-- **EDA Automation** — Python-based tools to streamline silicon design flows
-- **Hardware Documentation** — bridging complex hardware specs with accessible developer docs
+Used primarily to build interfaces and tooling around hardware projects — dashboards for EDA flows, documentation sites, and Python-based automation scripts.
 
----
-
-##  Looking for Help With
-
-- Scaling full-stack apps with **optimized backend architecture**
-- Mastering **advanced React patterns** & API integrations
-- Exploring **machine-learning approaches** for IoT-based detection
-- Deepening expertise in **physical design** and silicon implementation
+`HTML`,`CSS`,`JS`.`React` · `Next.js` · `Node.js` · `Python` · `C`. 
 
 ---
 
-##  Currently Learning
+### Open to Collaborating On
 
-- `React.js` · `Next.js` · modern component-based architectures
+- EDA automation — Python tooling to streamline silicon design flows
+- Open-source silicon projects built on the SKY130 ecosystem
+- Hardware documentation that bridges complex specs with accessible references
+
+### Currently Learning
+- Architecture of Reram physics
+- Advanced physical implementation across the full 42-step RTL-to-GDSII flow
 - Embedded systems for IoT
-- Advanced physical implementation (RTL-to-GDSII, 42-step flow)
+- Component-based architecture in React and Next.js
 
----
+### Intrested in
 
-##  Ask Me About
+- RTL modeling, testbench design, and coverage-driven verification
+- Open-source physical design flows on OpenLane / OpenROAD
+- The SKY130 PDK ecosystem and getting started with open-source silicon
+- Emerging memory technologies and fault modeling in ReRAM
 
-- Front-end design systems, UI/UX fundamentals, and clean code
-- VLSI design flows, RTL modeling, and EDA tooling
-- Open-source silicon and the SKY130 PDK ecosystem
 
----
 
-## ⚡ Fun Facts
+<div align="center">
 
-- I turned my curiosity into a habit: **I break things just to rebuild them better.**
-- I believe **design is not decoration — it's communication.**
-- Currently moving from a *"button-pusher"* to a **Silicon Architect** — one physical implementation step at a time.
-##  Socials:
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/_g_a_w_t_a_m_) 
+<sub>Open to conversations on VLSI design flows, open-source EDA, and emerging memory research.</sub>
 
-# Tech Stack:
-![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white) ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white) ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) ![WordPress](https://img.shields.io/badge/WordPress-%23117AC9.svg?style=for-the-badge&logo=WordPress&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white) ![Arduino](https://img.shields.io/badge/-Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=white)
-# GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=RORONOA-ZORO224&theme=chartreuse-dark&hide_border=false&include_all_commits=true&count_private=true)<br/>
-![](https://nirzak-streak-stats.vercel.app/?user=RORONOA-ZORO224&theme=chartreuse-dark&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=RORONOA-ZORO224&theme=chartreuse-dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
+<br/><br/>
 
----
-[![](https://visitcount.itsvg.in/api?id=RORONOA-ZORO224&icon=0&color=4)](https://visitcount.itsvg.in)
+<a href="https://instagram.com/_g_a_w_t_a_m_">
+  <img src="https://img.shields.io/badge/Instagram-E4405F?style=flat-square&logo=Instagram&logoColor=white" />
+</a>
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+<br/><br/>
+
+
+</div>
